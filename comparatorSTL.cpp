@@ -16,6 +16,5 @@ int main()
     
     // Returns the first one if both the numbers are same
     cout << max(8, 7, comp);
-
     return 0;
 }
