@@ -1,1 +1,5 @@
 mylogs.log
+
+/mylogs.log     //Only folder present files
+*.log           //all files ended with .log
+ignore/         //i.e this is a forder (ignore) which we will ignore
