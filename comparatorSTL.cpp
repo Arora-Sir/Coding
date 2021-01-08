@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -9,11 +10,9 @@ bool comp(int a, int b)
 }
 int main()
 {
-
     int a = 7;
     int b = 28;
     cout << std::max(a, b, comp) << "\n"; //comparator usage
-    
     // Returns the first one if both the numbers are same
     cout << max(8, 7, comp);
     return 0;
