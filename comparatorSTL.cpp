@@ -16,5 +16,6 @@ int main()
     cout << std::max(a, b, comp) << "\n"; //comparator usage
     // Returns the first one if both the numbers are same
     cout << max(8, 7, comp);
-    return 0;  
+    return 0; 
+    change try;
 }
