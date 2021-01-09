@@ -8,7 +8,7 @@ using namespace std;
 bool comp(int a, int b)
 {
     return (a > b);
-}x`
+}
 int main()
 {
     int a = 7;
