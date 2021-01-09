@@ -8,7 +8,7 @@ using namespace std;
 bool comp(int a, int b)
 {
     return (a > b);
-}
+}x`
 int main()
 {
     int a = 7;
@@ -16,5 +16,5 @@ int main()
     cout << std::max(a, b, comp) << "\n"; //comparator usage
     // Returns the first one if both the numbers are same
     cout << max(8, 7, comp);
-    return 0;
+    return 0;  
 }
