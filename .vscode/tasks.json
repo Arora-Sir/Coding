@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build equation",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        // "-g","testing.cpp"
+        "-g",
+        "${file}"
+      ],
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "c:/MinGW/bin/make.exe",
+      "args": ["clean"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

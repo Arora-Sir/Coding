@@ -1,6 +1,59 @@
 {
-    "files.associations": {
-        "*html": "html",
-        "algorithm": "cpp"
-    }
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "cSpell.userWords": ["Inorder", "Mohit", "Welcomee", "new"],
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.defaultLanguage": "cpp",
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // "terminal.integrated.shellArgs.windows": ["/K", "C:\\cmder\\vendor\\init.bat"],
+  "window.zoomLevel": 0,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "terminal.integrated.rightClickBehavior": "default",
+
+  "terminal.integrated.scrollback": 2000,
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorCustomizations": {},
+  "editor.smoothScrolling": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "python.jediEnabled": false,
+  "sync.gist": "f2a7ead25a41ebe3d55aa73085f51d0e",
+  "python.pythonPath": "C:\\Users\\amohi\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "C_Cpp.updateChannel": "Insiders",
+  "files.autoSave": "afterDelay",
+  "python.languageServer": "Pylance",
+  "editor.accessibilitySupport": "on",
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*html": "html"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.experimentalRestore": true,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  }
 }
