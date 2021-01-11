@@ -30,7 +30,8 @@
   "emmet.excludeLanguages": ["markdown"],
   "emmet.triggerExpansionOnTab": true,
   "files.associations": {
-    "*html": "html"
+    "*html": "html",
+    "iostream": "cpp"
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,

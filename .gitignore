@@ -5,4 +5,5 @@ mylogs.log
 ignore/         //i.e this is a forder (ignore) which we will ignore
 
 
+*.exe
 old_codes/
