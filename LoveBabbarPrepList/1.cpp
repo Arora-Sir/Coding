@@ -30,7 +30,6 @@ int main()
     int N;
     cin >> N;
     int last = N - 1;
-
     int arr[N];
 
     for (int i = 0; i < N; i++)
