@@ -1,5 +1,5 @@
 //App 1. new array → store starting k elements → print new array after n-k
-//App 2. rotate by one element and do it for k times
+//App 2. rotate by one element and do it for k times.
 
 #include <bits/stdc++.h>
 #include <iostream>
