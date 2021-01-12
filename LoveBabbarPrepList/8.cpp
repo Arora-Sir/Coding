@@ -12,6 +12,7 @@ int maxSubarraySum(int arr[], int n)
         {
             max_previous = max_now;
         }
+        //max_previous = max(max_now,max_previous);
         if (max_now < 0)
             max_now = 0;
     }
