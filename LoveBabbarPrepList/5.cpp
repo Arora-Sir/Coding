@@ -5,6 +5,8 @@ using namespace std;
 
 int main()
 {
+    //start from both sides and swap (my approach) -> 2 pointer approach
+    //start from starting and if >0 found then swap with next <0 -> 1 pointer approach
     int arr[6] = {-4, 4, -6, 12, -66, 0};
     int start = 0;
     int end = 6 - 1;
