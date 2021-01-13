@@ -1,5 +1,8 @@
 //Alternate positive and negative rearrange O(n)
 
+// App 2: in O(n^2) -> find the first out of place element in the remaining unprocessed array. An element is out of place if it is negative and at odd index, or it is positive and at even index. Once we find an out of place element, we find the first element after it with opposite sign. We right rotate the subarray between these two elements (including these two).
+// https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/
+
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
