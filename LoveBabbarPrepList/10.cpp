@@ -48,10 +48,10 @@ int main()
             return -1;
 
         //App 3: O(n) Accepted                                                      i = 1
-        int maxR = arr[0]; //Maximum Reach (Ladder)                                 maxR = a[i]
+        int maxR = arr[0];  //Maximum Reach (Ladder)                                 maxR = a[i]
         int steps = arr[0]; //Steps on ladder                                       steps = a[i]
-        int jumps = 1;                                                             //jumps = 1
-        if (n == 1) //base case
+        int jumps = 1;      //jumps = 1
+        if (n == 1)         //base case
             return 0;
         else if (arr[0] == 0) //base case
             return -1;
@@ -59,17 +59,17 @@ int main()
         {
             for (int i = 1; i < n; i++) //0 already done (jump one already)
             {
-    
+
                 if (i == (n - 1)) //if it is at end of array, so return ans
                     return jumps;
                 maxR = max(maxR, i + arr[i]); //ladder can reach till here
-                steps--; //ek step aage chale gaye ladder ke
-                if (steps == 0) //ladder over
+                steps--;                      //ek step aage chale gaye ladder ke
+                if (steps == 0)               //ladder over
                 {
-                    jumps++; //so jum need
+                    jumps++;       //so jum need
                     if (i >= maxR) //5 8(maxR here) 9 2 6 7(i here) 5, so answer not possible
-                        return -1; 
-                    steps = maxR - i; //5(i here) 8 9(maxR here) 2 6 7 5     This will ensure the minimum no. of steps needed    
+                        return -1;
+                    steps = maxR - i; //5(i here) 8 9(maxR here) 2 6 7 5     This will ensure the minimum no. of steps needed
                 }
             }
         }
