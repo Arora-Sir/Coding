@@ -1,9 +1,9 @@
 // Given an array of size n and a number k, find all elements that appear more than " n/k " times.
 
-// O(n^2) -> brute force simmple approach check every element
-// O(nlogn) + O(n) i.e O(nlogn) -> sort the array and traverse
+// App 1: O(n^2) -> brute force simmple approach check every element
+// App 2: O(nlogn) + O(n) i.e O(nlogn) -> sort the array and traverse
 
-//O(nk) -> creating temp ... maximum of temp(k-1) elements
+//App 3: O(nk) -> creating temp ... maximum of temp(k-1) elements
 
 // struct eleCount {                                            Step 1: Create a temporary array
 //     int element;                                             Step 2: Process all elements of input array (Main step)
@@ -21,3 +21,6 @@
         //at i = 7
         //  - - 2
         //  - 1 2
+
+
+//App 4: Hashing - O(n) time on average, Extra space required hashing would be higher than O(k)
