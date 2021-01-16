@@ -1,15 +1,15 @@
+//Find the triplet which sum to x 
+
+//App 1 : O(n^3)
+//App 2 : Unordered_map on n-1 elements (except the one we are on) and if(remaining-arr[i]) present in map then yes, O(n^2), O(n)
+//App 3 : O(n^2), O(1) down approach
+
+
+
 // { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
-
-// function to find the triplet which sum to x
-// arr[] : The input Array
-// N : Size of the Array
-// X : Sum which you need to search for 
+// } Driver Code Ends
 
 bool find3Numbers(int arr[], int N, int X)
 {
