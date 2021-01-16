@@ -2,13 +2,15 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build equation",
+      "label": "echo",
       "type": "shell",
       "command": "g++",
       "args": [
         // "-g","testing.cpp"
         "-g",
-        "${file}"
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "problemMatcher": "$gcc",
       "group": {
