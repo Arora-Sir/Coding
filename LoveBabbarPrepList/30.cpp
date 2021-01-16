@@ -1,4 +1,4 @@
-//Chocolate Distribution Problem
+//Chocolate Distribution Problem, O(nlgn)
 
 #include <climits>
 #include <algorithm>
