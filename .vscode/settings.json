@@ -129,5 +129,8 @@
   },
   "[css]": {
     "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
   }
 }
