@@ -1,10 +1,9 @@
-//Median of Array
-
 // { Driver Code Starts
+
 #include <bits/stdc++.h>
 using namespace std;
-// } Driver Code Ends
 
+// } Driver Code Ends
 class Solution
 {
 public:
@@ -14,17 +13,9 @@ public:
         sort(v.begin(), v.end());
         int size = v.size();
         if (size % 2 == 0)
-        {
-            int x = (size / 2) - 1;
-            int y = x + 1;
-            int z = (v[x] + v[y]) / 2;
-            return z;
-        }
+            return (v[(size / 2) - 1] + v[size / 2]) / 2;
         else
-        {
-            int x = size / 2;
-            return v[x];
-        }
+            return v[size / 2];
     }
 };
 
