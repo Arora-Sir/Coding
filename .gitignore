@@ -7,4 +7,5 @@ ignore/         //i.e this is a forder (ignore) which we will ignore
 
 *tempCodeRunnerFile.cpp
 *.exe
+*.class
 old_codes/
