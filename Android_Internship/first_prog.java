@@ -6,7 +6,7 @@ public class first_prog {
 /*
  * Q1: Why main() method is declared as public? to call method from jvm from
  * anywhere so main() is declared a public
- * 
+ 
  * Q2: Why main method is declared as static? Ans - To call main() method by JVM
  * (Java Virtual Machine) without creating any object JVM -> output kaam karne
  * ka kaam jvm karega..main nahi
