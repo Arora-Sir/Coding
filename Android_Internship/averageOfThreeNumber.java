@@ -2,16 +2,10 @@ import java.util.Scanner;
 
 public class averageOfThreeNumber {
     public static void main(String[] args) {
-
-        /*
-         * Your class should be named Solution. Read input as specified in the question.
-         * Print output as specified in the question.
-         */
-
-        Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in); // ! S larger
 
         String name = s.next();
-        char nameFirstChar = name.charAt(0);
+        char nameFirstChar = name.charAt(0); // ! name. first charAt -> A large
 
         int m1 = s.nextInt();
         int m2 = s.nextInt();
@@ -19,7 +13,7 @@ public class averageOfThreeNumber {
 
         int avg = (m1 + m2 + m3) / 3;
 
-        System.out.println(nameFirstChar);
+        System.out.println(nameFirstChar); // ! S
         System.out.println(avg);
 
     }
