@@ -132,5 +132,13 @@
   },
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
-  }
+  },
+  "cSpell.ignoreWords": [
+    "is",
+    "valid"
+  ],
+  "cSpell.words": [
+    "is",
+    "valid"
+  ]
 }
