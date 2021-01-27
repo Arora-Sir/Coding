@@ -3,24 +3,22 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch trying",
+      "request": "launch",
+      "mainClass": "trying",
+      "projectName": "Code_3b034aa"
+    },
+    {
+      "type": "java",
       "name": "Java Debug (Launch)",
       "request": "launch",
       "mainClass": "${file}",
       "args": ""
     },
-    // {
-    //   "type": "java",
-    //   "name": "Java Debug (Attach)",
-    //   "request": "attach",
-    //   "hostName":"localhost",
-    //   "port": 0
-    // },
-    
     {
       "name": " Cpp gdb Debug (Launch)",
       "type": "cppdbg",
       "request": "launch",
-      // "program": "C:/Users/dell/Desktop/Comp/firstprogram/a.exe",
       "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
       "args": [],
       "stopAtEntry": false,
@@ -38,5 +36,5 @@
         }
       ]
     }
-]
-
+  ]
+}
