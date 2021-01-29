@@ -1,16 +1,7 @@
-class co {
-    co() {
-        System.out.println("Hello");
-    }
-}
+package firstTest;
 
-class Test extends co {
-    Test() {
-        System.out.println("hi");
-    }
-
+class Test {
     public static void main(String[] args) {
-        Test t = new Test();
+        System.out.println("hey");
     }
-
 }
