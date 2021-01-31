@@ -4,18 +4,18 @@ public
 double findMedianSortedArrays(int[] a, int[] b, int startIndexA, int endIndexA, int startIndexB, int endIndexB)
 {
 
-    if ((endIndexA - startIndexA < 0) || ((endIndexB - startIndexB < 0))) //Base care 1 : No elements exist
+    if ((endIndexA - startIndexA < 0) || ((endIndexB - startIndexB < 0))) //Base case 1 : No elements exist
     {
         System.out.println("Invalid Input.");
         return ERROR_INVALID_INPUT;
     }
 
-    if ((endIndexA - startIndexA == 0) && ((endIndexB - startIndexB == 0))) //Base care 2 : only 1 element exist
+    if ((endIndexA - startIndexA == 0) && ((endIndexB - startIndexB == 0))) //Base case 2 : only 1 element exist
     {
         return (a[0] + b[0]) / 2;
     }
 
-    if ((endIndexA - startIndexA == 1) && ((endIndexB - startIndexB == 1))) //Base care 3 : two elements in one array
+    if ((endIndexA - startIndexA == 1) && ((endIndexB - startIndexB == 1))) //Base case 3 : two elements in one array
     {
         return (1.0 * (max(a[startIndexA], b[startIndexB]) + min(a[endIndexA], b[endIndexB]))) / 2;
     }
