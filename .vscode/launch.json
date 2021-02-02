@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch arrayFirstProg",
+      "request": "launch",
+      "mainClass": "arrayFirstProg",
+      "projectName": "Code_3b034aa"
+    },
+    {
+      "type": "java",
       "name": "Launch numberFormatException",
       "request": "launch",
       "mainClass": "numberFormatException",
