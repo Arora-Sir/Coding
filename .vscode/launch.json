@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch numberFormatException",
+      "request": "launch",
+      "mainClass": "numberFormatException",
+      "projectName": "Code_3b034aa"
+    },
+    {
+      "type": "java",
       "name": "Launch trying",
       "request": "launch",
       "mainClass": "trying",
