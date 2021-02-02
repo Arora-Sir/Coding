@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Probability {
 
@@ -25,7 +24,7 @@ public class Probability {
 
         double ans = (double) nCr(4, x) * (double) nCr(4, n - x) * 100 / (double) nCr(8, n);
         System.out.println((int) ans);
-
+        s.close();
         // int xx = x;
 
         // int balls = 8, red = 4, blue = 2, green = 2;
