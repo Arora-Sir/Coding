@@ -1,3 +1,5 @@
 1. ctrl + S (save)
 2. ctrl + shift + B (Compiled)
 3  Run Deugger (Done)
+
+Pressing F5, the debugger will automatically find the entry point of your project and start debugging. 
