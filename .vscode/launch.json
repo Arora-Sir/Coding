@@ -5,7 +5,9 @@
       "type": "java",
       "name": "Java Debug - Current File",
       "request": "launch",
-      "mainClass": "${file}"
+      "mainClass": "${file}",
+      // "console": "integratedTerminal",
+      "cwd": "${workspaceRoot}"
     },
     {
       "name": " Cpp gdb Debug (Launch)",
