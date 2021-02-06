@@ -3,31 +3,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch arrayFirstProg",
+      "name": "Java Debug - Current File",
       "request": "launch",
-      "mainClass": "arrayFirstProg",
-      "projectName": "Code_3b034aa"
-    },
-    {
-      "type": "java",
-      "name": "Launch numberFormatException",
-      "request": "launch",
-      "mainClass": "numberFormatException",
-      "projectName": "Code_3b034aa"
-    },
-    {
-      "type": "java",
-      "name": "Launch trying",
-      "request": "launch",
-      "mainClass": "trying",
-      "projectName": "Code_3b034aa"
-    },
-    {
-      "type": "java",
-      "name": "Java Debug (Launch)",
-      "request": "launch",
-      "mainClass": "${file}",
-      "args": ""
+      "mainClass": "${file}"
     },
     {
       "name": " Cpp gdb Debug (Launch)",
