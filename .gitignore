@@ -11,3 +11,27 @@ ignore/         //i.e this is a forder (ignore) which we will ignore
 *.exe
 *.class
 old_codes/
+
+
+
+*.iml               //For Android
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+/////added by me
+.idea
+app
+*gradle*
+
