@@ -2,4 +2,16 @@
 2. ctrl + shift + B (Compiled)
 3  Run Deugger (Done)
 
-Pressing F5, the debugger will automatically find the entry point of your project and start debugging. 
+Pressing F5, the debugger will automatically
+find the entry point of your project and start debugging. 
+
+*arr@5
+In the watch section, type this expression to watch debugging of arrays like:
+1. int arr[5];
+2. int arr = new int[5];
+
+*((int(*)[5]) arr) or (int(*)[5]) arr or *(int)arr@5
+In the watch section, type this expression to watch debugging of arrays like:
+1. vector<int> arr[5];
+2. int arr[5];
+3. int arr = new int[5];
