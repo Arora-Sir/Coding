@@ -47,6 +47,10 @@ using namespace std;
 
 // return a string formed by compressing string s
 // do not print anything
+
+//Input: ababcababcd
+//Output: ab*c*d
+
 class Solution
 {
 public:
@@ -156,15 +160,11 @@ public:
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        string s;
-        cin >> s;
-        Solution obj;
-        cout << obj.compress(s) << "\n";
-    }
+
+    string s;
+    cin >> s;
+    Solution obj;
+    cout << obj.compress(s) << "\n";
     return 0;
 }
 // } Driver Code Ends
