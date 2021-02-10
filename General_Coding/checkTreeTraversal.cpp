@@ -10,6 +10,13 @@ N = 5
 preorder[] = {1, 2, 4, 5, 3}
 inorder[] = {4, 2, 5, 1, 3}
 postorder[] = {4, 5, 2, 3, 1}
+
+5
+1 2 4 5 3
+4 2 5 1 3
+4 5 2 3 1
+
+
 Output: Yes
 Explanation: 
 All of the above three traversals 
@@ -46,15 +53,8 @@ Topic Tags
 
 */
 
-// { Driver Code Starts
-//Initial Template for C++
-
 #include <bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
-
-//Back-end complete function Template for C++
 
 class Solution
 {
@@ -100,36 +100,28 @@ public:
     }
 };
 
-// { Driver Code Starts.
-
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        int preorder[n];
-        int inorder[n];
-        int postorder[n];
 
-        for (int i = 0; i < n; ++i)
-            cin >> preorder[i];
+    int n;
+    cin >> n;
+    int preorder[n];
+    int inorder[n];
+    int postorder[n];
 
-        for (int i = 0; i < n; ++i)
-            cin >> inorder[i];
+    for (int i = 0; i < n; ++i)
+        cin >> preorder[i];
 
-        for (int i = 0; i < n; ++i)
-            cin >> postorder[i];
+    for (int i = 0; i < n; ++i)
+        cin >> inorder[i];
 
-        Solution obj;
-        if (obj.checktree(preorder, inorder, postorder, n))
-            cout << "Yes\n";
-        else
-            cout << "No\n";
-    }
+    for (int i = 0; i < n; ++i)
+        cin >> postorder[i];
+
+    Solution obj;
+    if (obj.checktree(preorder, inorder, postorder, n))
+        cout << "Yes\n";
+    else
+        cout << "No\n";
     return 0;
 }
-
-// } Driver Code Ends
