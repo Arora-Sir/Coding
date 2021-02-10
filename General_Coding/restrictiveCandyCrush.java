@@ -62,8 +62,7 @@ class restrictiveCandyCrush {
 }
 
 // ! REGULAR EXPRESSION SOLUTION
-// ?
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+// ? https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 // ? start
 // class Solution {
