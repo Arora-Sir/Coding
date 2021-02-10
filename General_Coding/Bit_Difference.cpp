@@ -36,11 +36,11 @@ Topic Tags
 */
 
 /*
-Naive Approach : To add set bits of xor of all pairs
+?Naive Approach : To add set bits of xor of all pairs
 i.e. sum += _builtin_popcountll(x^y)
 * Time complexity : O(n^2)
 
-Optimized Approach : Using logic of Naive approch
+?Optimized Approach : Using logic of Naive approch
 (i.e. 1^0=1 or 0^1=1) . As all numbers are represented using 32 bits ,
 so traversing i from 0 to 31 we will count numbers with i’th bit set.
 * Time complexity : O(n)
@@ -80,18 +80,14 @@ public:
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        int arr[n];
-        for (int i = 0; i < n; i++)
-            cin >> arr[i];
-        Solution obj;
-        cout << obj.sumBitDiff(arr, n) << "\n";
-    }
+    int n;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
+    Solution obj;
+    cout << obj.sumBitDiff(arr, n) << "\n";
+
     return 0;
 }
 // } Driver Code Ends
