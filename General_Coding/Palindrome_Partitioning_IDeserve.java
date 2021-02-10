@@ -1,7 +1,6 @@
-package questions.virendra;
+// MIN CUT METHOD
 
-public class PalindromePartitionMinCut {
-
+public class Palindrome_Partitioning_IDeserve {
     public static int partition(String s) {
         int n = s.length();
         boolean palindrome[][] = new boolean[n][n]; // boolean table
