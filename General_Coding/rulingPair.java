@@ -47,7 +47,7 @@ Hash Arrays
 import java.io.*;
 import java.util.*;
 
-class GFG {
+class rulingPair {
     public static void main(String args[]) throws IOException {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -91,9 +91,8 @@ class Solution {
         return ans;
     }
 
-    
-    //! Execution time increased -> O(n log n)
-    //? Approach:
+    // ! Execution time increased -> O(n log n)
+    // ? Approach:
     // 1) First suppose if we have sum of digits of each number
     // 2) Then our task is to find same number from above with maximum sum
     // 3) We will use hashMap (key,pair)==(sum of digit , number)
@@ -105,25 +104,24 @@ class Solution {
     // ii) Suppose current number is gretaer than hashmap number
     // then update number with current number
 
-
     // static int RulingPair(int arr[], int no) {
-    //     HashMap<Integer, Integer> h = new HashMap<>();
-    //     int sum = -1;
-    //     for (int n : arr) {
-    //         int dig = 0;
-    //         int num = n;
-    //         while (n != 0) {
-    //             dig += (n % 10);
-    //             n = n / 10;
-    //         }
-    //         if (h.containsKey(dig)) {
-    //             int curr = h.get(dig);
-    //             sum = Math.max(sum, curr + num);
-    //             if (num > curr)
-    //                 h.put(dig, num);
-    //         } else
-    //             h.put(dig, num);
-    //     }
-    //     return sum;
+    // HashMap<Integer, Integer> h = new HashMap<>();
+    // int sum = -1;
+    // for (int n : arr) {
+    // int dig = 0;
+    // int num = n;
+    // while (n != 0) {
+    // dig += (n % 10);
+    // n = n / 10;
+    // }
+    // if (h.containsKey(dig)) {
+    // int curr = h.get(dig);
+    // sum = Math.max(sum, curr + num);
+    // if (num > curr)
+    // h.put(dig, num);
+    // } else
+    // h.put(dig, num);
+    // }
+    // return sum;
     // }
 }
