@@ -120,7 +120,7 @@ int main()
 // public static int[] help_classmate(int arr[], int n)
 //     {
 //         Stack<integer> s = new Stack<>();
-//         ArrayList<integer> al = new ArrayList<>();  //? List<integer> list = new ArrayList<>();
+//         ArrayList<integer> al = new ArrayList<>();  //? List<integer> al = new ArrayList<>();
 
 //         for (int i = n - 1; i >= 0; i--)
 //         {
@@ -145,7 +145,7 @@ int main()
 
 //         //! last 4 lines can be done like this:
 //         Collections.reverse(al);
-//         int[] a = list.stream().mapToInt(Integer::intValue).toArray();
+//         int[] a = al.stream().mapToInt(Integer::intValue).toArray();
 //         return a;
 //     }
 // };
