@@ -51,10 +51,6 @@ Topic Tags
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
-
-//User function Template for C++
-
 class Solution
 {
 
@@ -84,8 +80,6 @@ public:
     }
 };
 
-// { Driver Code Starts.
-
 int main()
 {
     int t;
@@ -112,9 +106,41 @@ int main()
 
 // } Driver Code Ends
 
+
 //! In Java
 
 //todo: Apply Nearest greater left method then reverse the result list
+
+// import java.util.*;
+// import java.io.*;
+
+// class helplassmates
+// {
+// public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         int t = sc.nextInt();
+//         while (t > 0)
+//         {
+//             int n = sc.nextInt();
+//             int array[] = new int[n];
+//             for (int i = 0; i < n; ++i)
+//             {
+//                 array[i] = sc.nextInt();
+//             }
+
+//             Solution ob = new Solution();
+
+//             int ans[] = ob.help_classmate(array, n);
+
+//             for (int i = 0; i < n; i++)
+//                 System.out.print(ans[i] + " ");
+//             System.out.println();
+//             t--;
+//         }
+//     }
+// }
+
 // class Solution
 // {
 // public static int[] help_classmate(int arr[], int n)
