@@ -61,30 +61,34 @@ class Solution
 public:
     void postorder(int pre[], int in[], int l, int h, int &i, vector<int> &v, bool &x)
     {
+        // 1 2 4 5 3 pre
+        // 4 2 5 1 3 in
+        // 4 5 2 3 1 post
+
         if (l > h || !x)
             return;
-        int key = pre[i++], k;
+        int key = pre[i++], k; //store 1st value of pre in key and then search in inorder
         for (k = 0; k <= h; k++)
         {
-            if (in[k] == key)
+            if (in[k] == key) //when found key in inorder then break with k
                 break;
         }
-        if (k == h + 1)
+        if (k == h + 1) //if k greater than array (i.e not found in array or when came to left most)
         {
             x = false;
             return;
         }
-        postorder(pre, in, l, k - 1, i, v, x);
-        postorder(pre, in, k + 1, h, i, v, x);
-        v.push_back(key);
+        postorder(pre, in, l, k - 1, i, v, x); //left inorder array passed
+        postorder(pre, in, k + 1, h, i, v, x); //right inorder array passed
+        v.push_back(key);                      //push array in postorder type (i.e first push the left, then right, the root)
     }
 
     bool checktree(int pre[], int in[], int post[], int len)
     {
-        vector<int> v;
-        int i = 0;
-        bool x = true;
-        postorder(pre, in, 0, len - 1, i, v, x);
+        vector<int> v;                           //vector where we store its postorder by using pre and inorder
+        int i = 0;                               //i to traverse pre order array
+        bool x = true;                           //x to return if something went wrong then return false
+        postorder(pre, in, 0, len - 1, i, v, x); //check for pre and in order and push in vec to make post order
         if (x == false)
             return false;
         x = true;
