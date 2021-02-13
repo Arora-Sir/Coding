@@ -26,7 +26,7 @@ Output:
 Explanation:
 No two people are compatible with each other. 
 Your Task:  
-You don't need to read input or print anything. Complete the function RulingPairâ€‹() which takes the array arr[] and size of array N as input parameters and returns the answer. If No two people are compatible with
+You don't need to read input or print anything. Complete the function RulingPair() which takes the array arr[] and size of array N as input parameters and returns the answer. If No two people are compatible with
 each other then return -1.
 
 Expected Time Complexity: O(N)
@@ -65,7 +65,6 @@ class rulingPair {
     }
 }
 // } Driver Code Ends
-
 // User function Template for Java
 
 class Solution {
@@ -78,7 +77,7 @@ class Solution {
         return sum;
     }
 
-    static int RulingPair(int arr[], int n) {
+    static int RulingPair(int arr[], int n) {   //same approach using hashmap as down
         int map[] = new int[80];
         int ans = -1;
         for (int i = 0; i < n; i++) {
@@ -101,27 +100,27 @@ class Solution {
     // a) If element not found in hashmap..add to hashmap
     // b)if element already found :
     // i) Then check if sum of num +curr is greater than previous sum
-    // ii) Suppose current number is gretaer than hashmap number
+    // ii) Suppose current number is greater than hashmap number
     // then update number with current number
 
-    // static int RulingPair(int arr[], int no) {
-    // HashMap<Integer, Integer> h = new HashMap<>();
-    // int sum = -1;
-    // for (int n : arr) {
-    // int dig = 0;
-    // int num = n;
-    // while (n != 0) {
-    // dig += (n % 10);
-    // n = n / 10;
-    // }
-    // if (h.containsKey(dig)) {
-    // int curr = h.get(dig);
-    // sum = Math.max(sum, curr + num);
-    // if (num > curr)
-    // h.put(dig, num);
-    // } else
-    // h.put(dig, num);
-    // }
-    // return sum;
-    // }
+        // static int RulingPair(int arr[], int no) {
+        //     HashMap<Integer, Integer> h = new HashMap<>();
+        //     int sum = -1;
+        //     for (int n : arr) {
+        //         int dig = 0;
+        //         int num = n;
+        //         while (n != 0) {
+        //             dig += (n % 10);
+        //             n = n / 10;
+        //         }
+        //         if (h.containsKey(dig)) {
+        //             int curr = h.get(dig);       // h.get -> jo othe pehlan da peya
+        //             sum = Math.max(sum, curr + num);
+        //             if (num > curr)
+        //                 h.put(dig, num);
+        //         } else
+        //             h.put(dig, num);
+        //     }
+        //     return sum;
+        // }
 }
