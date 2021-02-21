@@ -15,3 +15,23 @@ In the watch section, type this expression to watch debugging of arrays like:
 1. vector<int> arr[5];
 2. int arr[5];
 3. int arr = new int[5];
+
+
+Important Instructions for keyBindings in VScode!
+// CTRL+SHIFT+P, enter "Preferences: Open Keyboard Shortcuts (JSON)"
+
+[
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  }
+]
