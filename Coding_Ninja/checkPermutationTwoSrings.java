@@ -21,12 +21,16 @@ public class checkPermutationTwoSrings {
             str2 = "";
         }
 
-        boolean ans = isPermutation(str1, str2);
+        boolean ans = Solution.isPermutation(str1, str2);
 
         System.out.println(ans);
 
     }
 
+}
+
+class Solution{
+    
     public static boolean isPermutation(String str1, String str2) {
         if (str1.length() != str2.length())
             return false;
