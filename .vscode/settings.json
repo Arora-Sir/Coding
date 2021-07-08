@@ -121,6 +121,9 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
@@ -133,10 +136,7 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
-  "cSpell.ignoreWords": [
-    "is",
-    "valid"
-  ],
+  "cSpell.ignoreWords": ["is", "valid"],
   "cSpell.words": [
     "Aghh",
     "arora",
@@ -148,5 +148,12 @@
     "popcountll",
     "startmax",
     "valid"
+  ],
+  "java.project.sourcePaths": [
+    "Old_codes",
+    "LoveBabbarPrepList",
+    "General_Coding",
+    "Android_Internship",
+    "Coding_Ninja"
   ]
 }

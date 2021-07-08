@@ -33,5 +33,9 @@ Important Instructions for keyBindings in VScode!
   {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+oem_8",
+    "command": "workbench.action.terminal.toggleTerminal"
   }
 ]
